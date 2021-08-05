@@ -1,0 +1,33 @@
+/*.wrap{*/
+/*    background: silver;*/
+/*    height: 600px;*/
+/*    width: 800px;*/
+/*}*/
+/*.box{*/
+/*    background:cornflowerblue ;*/
+/*    height: 200px;*/
+/*    display: flex;*/
+/*}*/
+
+.a-div {
+    height: 200px;
+    background: silver;
+    margin-bottom: 5px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.b-div {
+    height: 400px;
+    background: red;
+    width: calc(75% - 5px);
+    margin-right: 5px;
+}
+
+.c-div {
+    height: 400px;
+    background: blue;
+    width: 25%;
+}

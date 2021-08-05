@@ -1,0 +1,22 @@
+.header-div{
+    height:100px;
+    background:blue ;
+}
+.nav-div{
+    height: 100px;
+    background: cornflowerblue;
+}
+.wrap{
+display: flex;
+}
+.r-div{
+    height:400px ;
+    width: 75%;
+    background:yellow ;
+}
+.v-div{
+    height: 400px;
+    width: 25%;
+    background: aqua;
+}
+

@@ -1,0 +1,28 @@
+.header{
+    height: 200px;
+    background: greenyellow;
+}
+.wrap{
+    display: flex;
+}
+.menu{
+    height: 400px;
+    width: 25%;
+    background: palevioletred;
+}
+.blok{
+    height: 400px;
+    width: 100%;
+
+}
+.box1{
+    height: 200px;
+    width: 100%;
+    background: cornflowerblue;
+}
+
+
+.foter{
+    height: 200px;
+    background: greenyellow;
+}
