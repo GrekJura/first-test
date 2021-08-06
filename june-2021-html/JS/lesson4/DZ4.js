@@ -149,7 +149,7 @@ console.log(filtered)
 
 let sorted = arr.map((el) => {
    let obj = new User(el.id, el.name, el.surname , el.email, el.phone);
-    obj.name = 4564654654;
+
   return obj;
 }).sort(function (user1,user2){
     return user1.id-user2.id;

@@ -50,6 +50,19 @@ function goHome(energy) {
     })
 
 }
+function supper(energy) {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=>{
+            if(energy<400){
+                reject('не повечеряв')
+            }
+            else {
+                resolve('Повечеряв')
+            }
+        },400)
+    })
+
+}
 function sleep(energy) {
     return new Promise((resolve, reject) => {
         setTimeout(()=>{
@@ -77,6 +90,10 @@ wakeup(1000)
     .then((result) => {
         console.log(result);
         return goHome(400);
+    })
+    .then((result) => {
+        console.log(result);
+        return supper(400);
     })
     .then((result) => {
         console.log(result);
